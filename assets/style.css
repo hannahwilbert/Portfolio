@@ -1,0 +1,45 @@
+body {
+    background-image: url(https://subtlepatterns.com/patterns/grey.png);
+    }
+
+
+
+#logo {
+    width: 150px;
+    margin-left: 30px;
+}
+
+#pixels {
+    position: fixed;
+    margin: 35px 0 0 205px;
+    font-family: 'Dawning of a New Day', cursive;
+}
+
+.card {
+    margin-top: 30px;
+}
+
+.nav-link {
+    margin-right: 60px;
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+.card-title {
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+.description {
+    font-size: 40px;
+}
+
+#trivia, #psychic-game, #crystal-game, #giphy {
+    color: black;
+}
+
+.card-title {
+font-family: 'Raleway', sans-serif;
+font-size: 55px;
+}
+
