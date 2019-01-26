@@ -6,16 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
     <script src="./assets/javascript.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
     <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day" rel="stylesheet">
+
+    <style>
+        .container {
+        background-color: white;
+        border: 1px solid rgb(207, 207, 207);
+        border-radius: 3px;
+        margin-top: 30px;
+    }
     
+    </style>
+
 </head>
 
 <body>
@@ -48,55 +56,49 @@
 
     <div class="container">
 
-            <h1 class="my-4 text-center text-lg-left">Portfolio</h1>
+        <h1 class="my-4 text-center text-lg-left" id="port-title">Portfolio</h1>
 
-            <div class="row text-center text-lg-left">
+        <div class="row text-center text-lg-left">
 
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                    <a href="https://hannahwilbert.github.io/DisneyGifs/" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="assets/images/DISNEY.jpg"
-                            alt="">
-                        <h2 id="giphy">Gif Generator</h2>
-                    </a>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="https://hannahwilbert.github.io/DisneyGifs/" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="assets/images/DISNEY.jpg" alt="">
+                    <h2 id="giphy">Gif Generator</h2>
+                </a>
 
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                    <a href="https://hannahwilbert.github.io/TriviaGame/" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="assets/images/trivia.jpg"
-                            alt="">
-                        <h2 id="trivia">Trivia Game</h2>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                    <a href="https://hannahwilbert.github.io/unit-4-game/" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="assets/images/crysal3.png"
-                            alt="">
-                        <h2 id="crystal-game">Crystal Collector Game</h2>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                    <a href="https://hannahwilbert.github.io/Psychic-Game/" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="assets/images/Psychic-Game.jpg"
-                            alt="">
-                        <h2 id="psychic-game">Psychic Game</h2>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                    <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="http://lorempixel.com/output/city-q-c-640-480-4.jpg"
-                            alt="">
-                        <h2>Sample5</h2>
-                    </a>
-
-                </div>
             </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="https://hannahwilbert.github.io/TriviaGame/" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="assets/images/trivia.jpg" alt="">
+                    <h2 id="trivia">Trivia Game</h2>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="https://hannahwilbert.github.io/unit-4-game/" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="assets/images/crysal3.png" alt="">
+                    <h2 id="crystal-game">Crystal Game</h2>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="https://hannahwilbert.github.io/Psychic-Game/" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="assets/images/Psychic-Game.jpg" alt="">
+                    <h2 id="psychic-game">Psychic Game</h2>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="http://lorempixel.com/output/city-q-c-640-480-4.jpg" alt="">
+                    <h2>Sample5</h2>
+                </a>
 
+            </div>
         </div>
 
-        <footer>
-            <div class="footer">
-                <p>©Copyright Hannah Wilbert 2018</p>
-        </footer>
+    </div>
+
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <a class="navbar-brand" href="#">©Copyright Hannah Wilbert 2018</a>
+    </nav>
     </div>
 
 </body>
